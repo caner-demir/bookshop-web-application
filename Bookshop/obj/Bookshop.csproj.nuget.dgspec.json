@@ -4,6 +4,189 @@
     "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop\\Bookshop.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.DataAccess\\Bookshop.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.DataAccess\\Bookshop.DataAccess.csproj",
+        "projectName": "Bookshop.DataAccess",
+        "projectPath": "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.DataAccess\\Bookshop.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Caner Demir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Caner Demir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.Models\\Bookshop.Models.csproj": {
+                "projectPath": "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.Models\\Bookshop.Models.csproj"
+              },
+              "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.Utility\\Bookshop.Utility.csproj": {
+                "projectPath": "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.Utility\\Bookshop.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.Models\\Bookshop.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.Models\\Bookshop.Models.csproj",
+        "projectName": "Bookshop.Models",
+        "projectPath": "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.Models\\Bookshop.Models.csproj",
+        "packagesPath": "C:\\Users\\Caner Demir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Caner Demir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.Utility\\Bookshop.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.Utility\\Bookshop.Utility.csproj",
+        "projectName": "Bookshop.Utility",
+        "projectPath": "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.Utility\\Bookshop.Utility.csproj",
+        "packagesPath": "C:\\Users\\Caner Demir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Caner Demir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop\\Bookshop.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +210,17 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.DataAccess\\Bookshop.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.DataAccess\\Bookshop.DataAccess.csproj"
+              },
+              "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.Models\\Bookshop.Models.csproj": {
+                "projectPath": "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.Models\\Bookshop.Models.csproj"
+              },
+              "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.Utility\\Bookshop.Utility.csproj": {
+                "projectPath": "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.Utility\\Bookshop.Utility.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -63,6 +256,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[5.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [

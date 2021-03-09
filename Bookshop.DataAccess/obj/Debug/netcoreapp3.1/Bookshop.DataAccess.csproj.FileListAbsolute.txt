@@ -1,0 +1,14 @@
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\bin\Debug\netcoreapp3.1\Bookshop.DataAccess.deps.json
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\bin\Debug\netcoreapp3.1\Bookshop.DataAccess.dll
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\bin\Debug\netcoreapp3.1\Bookshop.DataAccess.pdb
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\obj\Debug\netcoreapp3.1\Bookshop.DataAccess.csprojAssemblyReference.cache
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\obj\Debug\netcoreapp3.1\Bookshop.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\obj\Debug\netcoreapp3.1\Bookshop.DataAccess.AssemblyInfo.cs
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\obj\Debug\netcoreapp3.1\Bookshop.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\obj\Debug\netcoreapp3.1\Bookshop.DataAccess.dll
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\obj\Debug\netcoreapp3.1\Bookshop.DataAccess.pdb
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\bin\Debug\netcoreapp3.1\Bookshop.Models.dll
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\bin\Debug\netcoreapp3.1\Bookshop.Utility.dll
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\bin\Debug\netcoreapp3.1\Bookshop.Models.pdb
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\bin\Debug\netcoreapp3.1\Bookshop.Utility.pdb
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\obj\Debug\netcoreapp3.1\Bookshop.DataAccess.csproj.CopyComplete
