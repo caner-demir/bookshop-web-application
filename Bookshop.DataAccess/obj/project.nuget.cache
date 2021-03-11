@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "iQQaIC2FP1ToYKNpo/ryxnFfTK+14nIuUYnqFRfpBFaagNERHMJxptHSBinYiOf3vzlwoI+Uf94NuJ5z2jVBdw==",
+  "dgSpecHash": "Q3ETgSullcXQVY+4JGucp8PDlJXM56lPm96DqvOkT9EnwkBAUhf1VtAEQhW1L56+E2iQDKliEQdWi7A+rtWj7w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.DataAccess\\Bookshop.DataAccess.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Caner Demir\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\Caner Demir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.1\\microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
     "C:\\Users\\Caner Demir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.1\\microsoft.aspnetcore.cryptography.keyderivation.5.0.1.nupkg.sha512",
     "C:\\Users\\Caner Demir\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.1\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.1.nupkg.sha512",
@@ -70,7 +71,7 @@
     "C:\\Users\\Caner Demir\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\Caner Demir\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
     "C:\\Users\\Caner Demir\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
-    "C:\\Users\\Caner Demir\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+    "C:\\Users\\Caner Demir\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
     "C:\\Users\\Caner Demir\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Caner Demir\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Caner Demir\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
