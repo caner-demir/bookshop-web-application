@@ -446,3 +446,8 @@ C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Custom
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewStart.cshtml.g.cs
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop\bin\Debug\net5.0\Dapper.dll
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Upsert.cshtml.g.cs
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Views\Shared\_CreateAndBackToListButtons.cshtml.g.cs
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Views\Shared\_EditAndBackToListButtons.cshtml.g.cs
