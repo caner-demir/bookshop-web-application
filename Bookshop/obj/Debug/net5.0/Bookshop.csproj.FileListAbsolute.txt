@@ -457,3 +457,5 @@ C:\Users\Caner Demir\Caner\Bookshop\Bookshop\bin\Debug\net5.0\Microsoft.AspNetCo
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Upsert.cshtml.g.cs
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Company\Index.cshtml.g.cs
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Company\Upsert.cshtml.g.cs
