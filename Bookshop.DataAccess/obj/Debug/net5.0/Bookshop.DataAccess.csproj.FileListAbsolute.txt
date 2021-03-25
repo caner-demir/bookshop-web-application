@@ -1,0 +1,17 @@
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\bin\Debug\net5.0\Bookshop.DataAccess.deps.json
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\bin\Debug\net5.0\Bookshop.DataAccess.dll
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\bin\Debug\net5.0\ref\Bookshop.DataAccess.dll
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\bin\Debug\net5.0\Bookshop.DataAccess.pdb
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\bin\Debug\net5.0\Bookshop.Models.dll
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\bin\Debug\net5.0\Bookshop.Utility.dll
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\bin\Debug\net5.0\Bookshop.Models.pdb
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\bin\Debug\net5.0\Bookshop.Utility.pdb
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\obj\Debug\net5.0\Bookshop.DataAccess.csprojAssemblyReference.cache
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\obj\Debug\net5.0\Bookshop.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\obj\Debug\net5.0\Bookshop.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\obj\Debug\net5.0\Bookshop.DataAccess.AssemblyInfo.cs
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\obj\Debug\net5.0\Bookshop.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\obj\Debug\net5.0\Bookshop.DataAccess.csproj.CopyComplete
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\obj\Debug\net5.0\Bookshop.DataAccess.dll
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\obj\Debug\net5.0\ref\Bookshop.DataAccess.dll
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.DataAccess\obj\Debug\net5.0\Bookshop.DataAccess.pdb
