@@ -498,3 +498,4 @@ C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Identi
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
