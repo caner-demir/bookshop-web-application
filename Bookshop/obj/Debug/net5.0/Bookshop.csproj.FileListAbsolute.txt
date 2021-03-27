@@ -499,3 +499,5 @@ C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Identi
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Google.dll

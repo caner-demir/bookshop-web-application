@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "E6efr2VNI022WaQj9NCSTyTGR1M2d6tMNpkvVlsWIr+wcLO13nviYvxqA7v9h8sEuPbuSPoHR18YaOYQIc9efA==",
+  "dgSpecHash": "64Fhe4weFLCSfteAWXFsfhwe1x5285KDJNfdMxxkZMl41z9MWvv6JAVpytp0vYAIdU+kAGm/V9zEqd32+L01Sg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop\\Bookshop.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,8 @@
     "C:\\Users\\Caner Demir\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Caner Demir\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Caner Demir\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\Caner Demir\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\5.0.4\\microsoft.aspnetcore.authentication.facebook.5.0.4.nupkg.sha512",
+    "C:\\Users\\Caner Demir\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\5.0.4\\microsoft.aspnetcore.authentication.google.5.0.4.nupkg.sha512",
     "C:\\Users\\Caner Demir\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\Caner Demir\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "C:\\Users\\Caner Demir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.4\\microsoft.aspnetcore.cryptography.internal.5.0.4.nupkg.sha512",

@@ -28,6 +28,8 @@
           "Bookshop.DataAccess": "1.0.0",
           "Bookshop.Models": "1.0.0",
           "Bookshop.Utility": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.Facebook": "5.0.4",
+          "Microsoft.AspNetCore.Authentication.Google": "5.0.4",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.1",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.4",
           "Microsoft.AspNetCore.Identity.UI": "5.0.4",
@@ -359,6 +361,28 @@
           "Microsoft.AspNetCore.Authentication.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http": "2.2.0",
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0"
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/5.0.4": {
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "5.0.4.0",
+            "fileVersion": "5.0.421.11815"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/5.0.4": {
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "5.0.4.0",
+            "fileVersion": "5.0.421.11815"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.Google.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/2.2.0": {
@@ -4274,6 +4298,20 @@
       "sha512": "sha512-XlVJzJ5wPOYW+Y0J6Q/LVTEyfS4ssLXmt60T0SPP+D8abVhBTl+cgw2gDHlyKYIkcJg7btMVh383NDkMVqD/fg==",
       "path": "microsoft.aspnetcore.authentication.core/2.2.0",
       "hashPath": "microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/5.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EC5rlBAA6k690hHm3nPDMLZEPWU5lhOlN4kKKpPfOq138IOo4VjsqEaI1dTgT+VZvs45p3Nrt3w2Td1+p6lBdw==",
+      "path": "microsoft.aspnetcore.authentication.facebook/5.0.4",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.5.0.4.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/5.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FV/1yssuq6ROswahmWbIVju0Oh7QeqOw9QbsVsSR7i/ScDdWBLAiM6C+6F6RwhaiE+W3Sgy3RFlRzHnEDaHgfg==",
+      "path": "microsoft.aspnetcore.authentication.google/5.0.4",
+      "hashPath": "microsoft.aspnetcore.authentication.google.5.0.4.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/2.2.0": {
       "type": "package",
