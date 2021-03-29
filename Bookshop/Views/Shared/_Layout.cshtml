@@ -1,4 +1,6 @@
 ﻿@using Bookshop.Utility
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
 
 <!DOCTYPE html>
 <html lang="en">
@@ -34,9 +36,9 @@
                                     Content Management
                                 </a>
                                 <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="CoverType" asp-action="Index">Cover Type</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>
+                                    <a class="dropdown-item text-black" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>
+                                    <a class="dropdown-item text-black" asp-area="Admin" asp-controller="CoverType" asp-action="Index">Cover Type</a>
+                                    <a class="dropdown-item text-black" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>
                                 </div>
                             </li>
                         }
@@ -48,9 +50,29 @@
                                     User / Company
                                 </a>
                                 <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Company" asp-action="Index">Company</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="User" asp-action="Index">User</a>
+                                    <a class="dropdown-item text-black" asp-area="Admin" asp-controller="Company" asp-action="Index">Company</a>
+                                    <a class="dropdown-item text-black" asp-area="Admin" asp-controller="User" asp-action="Index">User</a>
                                 </div>
+                            </li>
+                        }
+
+                        @if (HttpContextAccessor.HttpContext.Session.GetInt32(SD.ssShoppingCart) != null)
+                        {
+                            <li style="color:white">
+                                <a asp-area="Customer" asp-controller="Cart" asp-action="Index" class="nav-link text-white">
+                                    @{
+                                        var count = HttpContextAccessor.HttpContext.Session.GetInt32(SD.ssShoppingCart);
+                                    }
+                                    <i class="fas fa-shopping-cart"></i> &nbsp; (@count)
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li>
+                                <a href="#" class="nav-link text-white">
+                                    <i class="fas fa-shopping-cart"></i> &nbsp; (0)
+                                </a>
                             </li>
                         }
 

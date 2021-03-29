@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IS2cVy/QSdTqQFSR5VnG/MFzXWIMhvauqNR/nfKj/oUooqi8+3TGCiINRd4RfEypsiKpFw9CqH00DTq59pmItA==",
+  "dgSpecHash": "zygCxM4hNw9s7xIe6DK3C9bJNMumhL75y8lBJwVmENUZq3z5iG4nPNmuYM2Xnb2QFkXqxmuXCNThYx4WpT6Tuw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Caner Demir\\Caner\\Bookshop\\Bookshop.Utility\\Bookshop.Utility.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,8 @@
     "C:\\Users\\Caner Demir\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\Caner Demir\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Caner Demir\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
-    "C:\\Users\\Caner Demir\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+    "C:\\Users\\Caner Demir\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Caner Demir\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
