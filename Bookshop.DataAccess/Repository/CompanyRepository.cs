@@ -19,12 +19,7 @@ namespace Bookshop.DataAccess.Repository
 
         public void Update(Company company)
         {
-            var ObjFromDb = _db.Companies.FirstOrDefault(s => s.Id == company.Id);
-
-            if (ObjFromDb != null)
-            {
-                ObjFromDb.Name = company.Name;
-            }
+            _db.Update(company);
         }
     }
 }
