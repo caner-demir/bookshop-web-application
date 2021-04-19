@@ -52,7 +52,7 @@ namespace Bookshop.Areas.Customer.Controllers
 
                 if (list.Product.Description.Length > 100)
                 {
-                    list.Product.Description = list.Product.Description.Substring(0, 99) + "...";
+                    list.Product.Description = list.Product.Description.Substring(0, 119) + "...";
                 }
             }
             return View(ShoppingCartVM);
