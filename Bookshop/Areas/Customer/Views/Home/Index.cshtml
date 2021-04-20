@@ -17,7 +17,7 @@
         @foreach (var product in RandomModel.Take(3))
         {
             <div class="carousel-item @(product == RandomModel.First() ? "active" : "")">
-                <div class="card bg-info rounded-0">
+                <div class="card rounded-0" style="background:#19b1c9">
                     <div class="row p-3">
                         <div class="col-8 pt-3 carousel-descriptions" style="padding-left:100px">
                             <h1 class="text-danger">@product.Title</h1>

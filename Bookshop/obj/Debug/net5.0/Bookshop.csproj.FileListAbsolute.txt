@@ -503,3 +503,5 @@ C:\Users\Caner Demir\Caner\Bookshop\Bookshop\bin\Debug\net5.0\Microsoft.AspNetCo
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Google.dll
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Cart\Index.cshtml.g.cs
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Views\Shared\_CartPartial.cshtml.g.cs
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop\obj\Debug\net5.0\Razor\Views\Shared\_TotalPartial.cshtml.g.cs

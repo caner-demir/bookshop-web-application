@@ -50,7 +50,7 @@ namespace Bookshop.Areas.Customer.Controllers
                 ShoppingCartVM.OrderHeader.OrderTotal += (list.Price * list.Count);
                 list.Product.Description = SD.ConvertToRawHtml(list.Product.Description);
 
-                if (list.Product.Description.Length > 100)
+                if (list.Product.Description.Length > 120)
                 {
                     list.Product.Description = list.Product.Description.Substring(0, 119) + "...";
                 }
@@ -58,17 +58,25 @@ namespace Bookshop.Areas.Customer.Controllers
             return View(ShoppingCartVM);
         }
 
-        public IActionResult Plus(int cartId)
+        [HttpGet]
+        public IActionResult PlusPartial(int cartId)
         {
             var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(c => c.Id == cartId, includeProperties: "Product");
             cart.Count += 1;
             cart.Price = SD.GetPriceBasedOnQuantity(cart.Count, cart.Product.Price, cart.Product.Price50, cart.Product.Price100);
 
             _unitOfWork.Save();
-            return RedirectToAction(nameof(Index));
+
+            cart.Product.Description = SD.ConvertToRawHtml(cart.Product.Description);
+            if (cart.Product.Description.Length > 120)
+            {
+                cart.Product.Description = cart.Product.Description.Substring(0, 119) + "...";
+            }
+            return PartialView("_CartPartial", cart);
         }
 
-        public IActionResult Minus(int cartId)
+        [HttpGet]
+        public IActionResult MinusPartial(int cartId)
         {
             var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(c => c.Id == cartId, includeProperties: "Product");
 
@@ -78,15 +86,47 @@ namespace Bookshop.Areas.Customer.Controllers
                 _unitOfWork.ShoppingCart.Remove(cart);
                 _unitOfWork.Save();
                 HttpContext.Session.SetInt32(SD.ssShoppingCart, cnt - 1);
+
+                return NoContent();
             }
             else
             {
                 cart.Count -= 1;
                 cart.Price = SD.GetPriceBasedOnQuantity(cart.Count, cart.Product.Price, cart.Product.Price50, cart.Product.Price100);
                 _unitOfWork.Save();
+
+                cart.Product.Description = SD.ConvertToRawHtml(cart.Product.Description);
+                if (cart.Product.Description.Length > 120)
+                {
+                    cart.Product.Description = cart.Product.Description.Substring(0, 119) + "...";
+                }
+                return PartialView("_CartPartial", cart);
+            }
+        }
+
+        [HttpGet]
+        public IActionResult TotalPartial()
+        {
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+
+            ShoppingCartVM = new ShoppingCartVM()
+            {
+                OrderHeader = new Models.OrderHeader(),
+                ListCart = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == claim.Value, includeProperties: "Product")
+            };
+            ShoppingCartVM.OrderHeader.OrderTotal = 0;
+            ShoppingCartVM.OrderHeader.ApplicationUser = _unitOfWork.ApplicationUser
+                                                        .GetFirstOrDefault(u => u.Id == claim.Value, includeProperties: "Company");
+
+            foreach (var list in ShoppingCartVM.ListCart)
+            {
+                list.Price = SD.GetPriceBasedOnQuantity(list.Count, list.Product.Price,
+                                                        list.Product.Price50, list.Product.Price100);
+                ShoppingCartVM.OrderHeader.OrderTotal += (list.Price * list.Count);
             }
 
-            return RedirectToAction(nameof(Index));
+            return PartialView("_TotalPartial", ShoppingCartVM.OrderHeader);
         }
 
         public IActionResult Remove(int cartId)
