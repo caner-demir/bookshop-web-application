@@ -3,7 +3,9 @@
 
 // Write your JavaScript code.
 $(document).ready(function () {
-    $(".carousel-descriptions").children().css({ 'background-color': '' })
-    $(".carousel-descriptions").children().children().css({ 'background-color': '' })
+    $(".carousel-descriptions-alt").children().css({ 'background-color': '' })
+    $(".carousel-descriptions-alt").children().children().css({ 'background-color': '' })
+    $(".carousel-descriptions-alt").children().addClass("text-light")
+    $(".carousel-descriptions-alt").children().children().addClass("text-light")
 })
 

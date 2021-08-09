@@ -2,7 +2,6 @@ C:\Users\Caner Demir\Caner\Bookshop\Bookshop.Utility\bin\Debug\net5.0\Bookshop.U
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop.Utility\bin\Debug\net5.0\Bookshop.Utility.dll
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop.Utility\bin\Debug\net5.0\ref\Bookshop.Utility.dll
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop.Utility\bin\Debug\net5.0\Bookshop.Utility.pdb
-C:\Users\Caner Demir\Caner\Bookshop\Bookshop.Utility\obj\Debug\net5.0\Bookshop.Utility.csprojAssemblyReference.cache
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop.Utility\obj\Debug\net5.0\Bookshop.Utility.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop.Utility\obj\Debug\net5.0\Bookshop.Utility.AssemblyInfoInputs.cache
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop.Utility\obj\Debug\net5.0\Bookshop.Utility.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\Users\Caner Demir\Caner\Bookshop\Bookshop.Utility\obj\Debug\net5.0\Bookshop.U
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop.Utility\obj\Debug\net5.0\Bookshop.Utility.dll
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop.Utility\obj\Debug\net5.0\ref\Bookshop.Utility.dll
 C:\Users\Caner Demir\Caner\Bookshop\Bookshop.Utility\obj\Debug\net5.0\Bookshop.Utility.pdb
+C:\Users\Caner Demir\Caner\Bookshop\Bookshop.Utility\obj\Debug\net5.0\Bookshop.Utility.csproj.AssemblyReference.cache
