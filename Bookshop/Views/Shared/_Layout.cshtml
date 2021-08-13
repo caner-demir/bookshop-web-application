@@ -56,36 +56,42 @@
                                 </div>
                             </li>
                         }
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="Admin" asp-controller="Order" asp-action="Index">
-                                @if (User.IsInRole(SD.Role_Employee) || User.IsInRole(SD.Role_Admin))
-                                {
-                                    <span>Manage Orders</span>
-                                }
-                                else
-                                {
-                                    <span>Order History</span>
-                                }
-                            </a>
-                        </li>
-                        @if (HttpContextAccessor.HttpContext.Session.GetInt32(SD.ssShoppingCart) != null)
+                        @if (User.Identity.IsAuthenticated)
                         {
-                            <li style="color:white">
-                                <a asp-area="Customer" asp-controller="Cart" asp-action="Index" class="nav-link text-white">
-                                    @{
-                                        var count = HttpContextAccessor.HttpContext.Session.GetInt32(SD.ssShoppingCart);
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="Admin" asp-controller="Order" asp-action="Index">
+                                    @if (User.IsInRole(SD.Role_Employee) || User.IsInRole(SD.Role_Admin))
+                                    {
+                                        <span>Order Management</span>
                                     }
-                                    <i class="fas fa-shopping-cart"></i> &nbsp; (@count)
+                                    else
+                                    {
+                                        <span>Order History</span>
+                                    }
                                 </a>
                             </li>
                         }
-                        else
+                        @if (User.Identity.IsAuthenticated)
                         {
-                            <li>
-                                <a href="#" class="nav-link text-white">
-                                    <i class="fas fa-shopping-cart"></i> &nbsp; (0)
-                                </a>
-                            </li>
+                            @if (HttpContextAccessor.HttpContext.Session.GetInt32(SD.ssShoppingCart) != null)
+                            {
+                                <li style="color:white">
+                                    <a asp-area="Customer" asp-controller="Cart" asp-action="Index" class="nav-link text-white">
+                                        @{
+                                            var count = HttpContextAccessor.HttpContext.Session.GetInt32(SD.ssShoppingCart);
+                                        }
+                                        <i class="fas fa-shopping-cart"></i> &nbsp; (@count)
+                                    </a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <a href="#" class="nav-link text-white">
+                                        <i class="fas fa-shopping-cart"></i> &nbsp; (0)
+                                    </a>
+                                </li>
+                            }
                         }
 
                     </ul>

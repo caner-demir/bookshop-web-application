@@ -34,25 +34,35 @@
 <div class="border p-3">
     <div class="d-flex justify-content-between mb-3">
         <div class="p-2">
-            <h2 class="text-primary">Order's List</h2>
+            <h2 class="text-primary">Order List</h2>
         </div>
         <div class="p-2">
             <ul class="list-group list-group-horizontal-sm">
-                <a style="text-decoration:none" asp-controller="Order" asp-action="Index" asp-route-status="inprocess">
-                    <li class="list-group-item @inprocess">In Process</li>
-                </a>
-                <a style="text-decoration:none" asp-controller="Order" asp-action="Index" asp-route-status="pending">
-                    <li class="list-group-item @pending">Pending</li>
-                </a>
-                <a style="text-decoration:none" asp-controller="Order" asp-action="Index" asp-route-status="completed">
-                    <li class="list-group-item @completed">Completed</li>
-                </a>
-                <a style="text-decoration:none" asp-controller="Order" asp-action="Index" asp-route-status="rejected">
-                    <li class="list-group-item @rejected">Rejected</li>
-                </a>
-                <a style="text-decoration:none" asp-controller="Order" asp-action="Index" asp-route-status="all">
-                    <li class="list-group-item @all">All</li>
-                </a>
+                <li class="list-group-item p-0 @all">
+                    <a style="text-decoration:none" class="d-inline-block text-dark p-3" asp-controller="Order" asp-action="Index" asp-route-status="all">
+                        All
+                    </a>
+                </li>
+                <li class="list-group-item p-0 @inprocess">
+                    <a style="text-decoration:none" class="d-inline-block text-dark p-3" asp-controller="Order" asp-action="Index" asp-route-status="inprocess">
+                        In Process
+                    </a>
+                </li>
+                <li class="list-group-item p-0 @pending">
+                    <a style="text-decoration:none" class="d-inline-block text-dark p-3" asp-controller="Order" asp-action="Index" asp-route-status="pending">
+                        Pending
+                    </a>
+                </li>
+                <li class="list-group-item p-0 @completed">
+                    <a style="text-decoration:none" class="d-inline-block text-dark p-3" asp-controller="Order" asp-action="Index" asp-route-status="completed">
+                        Completed
+                    </a>
+                </li>
+                <li class="list-group-item p-0 @rejected">
+                    <a style="text-decoration:none" class="d-inline-block text-dark p-3" asp-controller="Order" asp-action="Index" asp-route-status="rejected">
+                        Rejected
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
